@@ -24,7 +24,7 @@ function Home({ set, Response }) {
 
     useEffect(() => {
         getData()
-
+        getFavv()
     }, [Response])
 
     const getFavv = async () => {
