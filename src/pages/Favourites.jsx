@@ -35,7 +35,7 @@ function Favourites({ response,set }) {
                 <Link to={'/'} className='btn btn-dark'>Back to Contacts</Link>
             </div>
 
-            <div className='p-5'>
+            <div className='p-5' style={{height:'55vh'}}>
                 {
                     response.length > 0 ?
                         <table class="table">

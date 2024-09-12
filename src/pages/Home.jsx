@@ -186,7 +186,7 @@ function Home({ set, Response }) {
                 </Modal.Footer>
             </Modal>
 
-            <div className='p-5'>
+            <div className='p-5' style={{height:'50vh'}}>
                 {
                     contacts.length > 0 ?
                         <table class="table">

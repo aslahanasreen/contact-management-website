@@ -10,7 +10,7 @@ function Header() {
           <Navbar.Brand href="#home">
           <i className="fa-regular fa-address-book" />
            {' '}
-            React Bootstrap
+            Contacts
           </Navbar.Brand>
         </Container>
       </Navbar>
